@@ -14,7 +14,10 @@ const ProductCard= () => {// React.FC<ProductCardProps> = ({ image, title, price
     <div className="flex flex-col md:flex-row items-start border border-gray-300 rounded-lg p-4 gap-6">
       {/* Left: Image */}
       <div className="w-full md:w-1/2">
-        <Image src="/image/Rectangle-6.png" alt="image" className="w-full h-auto rounded-md" />
+        <Image src="/image/Rectangle-6.png" alt="image"
+        width={100}
+       height= {100}
+         className="w-full h-auto rounded-md" />
       </div>
 
       {/* Right: Text Content */}

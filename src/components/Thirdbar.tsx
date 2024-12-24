@@ -1,3 +1,4 @@
+import { Import } from "lucide-react";
 import React from "react";
 
 const ThirdBar: React.FC = () => {
@@ -11,6 +12,12 @@ const ThirdBar: React.FC = () => {
         {/* Lower Text */}
         <div className="text-sm font-normal">Download the app now</div>
       </div>
+
+  
+
+
+
+
     </div>
   );
 };

@@ -3,10 +3,12 @@ import React from 'react'
 // src/pages/ProductsPage.tsx
 
 import Header from '@/components/Header';
-import FilterSort from "@/components/AllProductsPage/FilterSort"
-import ProductList from"@/components/AllProductsPage/ProductList"
-import Navbar from '../Navbar';
 
+import Navbar from '../../components/Navbar';
+
+import Sidebar from './Sidebar';
+import FilterSort from './FilterSort';
+import Footer from '@/components/footer';
 
 const ProductsPage = () => {
   return (
@@ -14,8 +16,10 @@ const ProductsPage = () => {
       <Header />
       <Navbar/>
       <FilterSort />
-      <ProductList />
+    
+      <Sidebar />
       
+      <Footer/>
     </div>
   );
 };

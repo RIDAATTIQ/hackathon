@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import shoeImage from "../../public/image/shoe.png"; // Correct image path
+
+ // Correct image path
 
 const ProductDetail: React.FC = () => {
   return (
@@ -8,10 +9,12 @@ const ProductDetail: React.FC = () => {
       {/* Product Image */}
       <div className="flex justify-center">
         <Image
-          src={shoeImage} // Shoe image
-          alt="Shoe"
+          src="/image/shoe.png" // Shoe image
+          alt={"shoe"}
           width={1340} // Adjust size as per requirement
-          height={700} // Adjust size as per requirement
+          height={700}
+          layout="responsive"
+          // Adjust size as per requirement
         />
       </div>
 
@@ -27,7 +30,7 @@ const ProductDetail: React.FC = () => {
         <button className="mt-6 mx-3 px-6 py-2 bg-black
  text-white rounded-lg mb-0">notifyMe</button>
  <button className="px-6 py-2 bg-black
- text-white rounded-lg">notifyMe</button>
+ text-white rounded-lg">shopAirmax</button>
  
 
       </div>

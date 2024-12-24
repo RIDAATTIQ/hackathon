@@ -8,7 +8,9 @@ const Featured = () => {
         <span className="font-bold text-lg">featured</span>
 
 <div className="flex  flex-col items-center">
-<Image src={"/image/featur.png"} alt="Shoes" className="w-[1344] h-[600]" />
+<Image src={"/image/featur.png"} alt="Shoes" 
+width={1344} 
+height={600} />
 <span className='text-4xl to-black flex flex-col items-center mt-3'>STEP INTO WHAT FEELS GOOD </span>
 <span>Cause everyone should know the feeling of running in that perfect pair.</span>
 </div>

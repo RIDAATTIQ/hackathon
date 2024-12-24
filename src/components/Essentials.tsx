@@ -12,9 +12,11 @@ const Essentials = () => {
         {/* Men's Image */}
         <div className="relative group">
           <Image
-            src="./image/men.png"
+            src="/image/men.png"  // Correct path for men.png (relative to the /public directory)
             alt="Men's Essentials"
-            className="width=[300px] height=[400px] object-cover rounded-lg shadow-lg"
+            width={300}
+            height={400}
+            className="w-[300px] h-[400px] object-cover rounded-lg shadow-lg"
           />
           <p className="absolute bottom-4 left-4 bg-white px-4 py-1 rounded-full shadow-md text-gray-800 group-hover:underline">
             Men's
@@ -24,8 +26,10 @@ const Essentials = () => {
         {/* Women's Image */}
         <div className="relative group">
           <Image
-            src={"./image/women.png"}
+            src="/image/women.png"  // Correct path for women.png
             alt="Women's Essentials"
+            width={300}
+            height={400}
             className="w-[300px] h-[400px] object-cover rounded-lg shadow-lg"
           />
           <p className="absolute bottom-4 left-4 bg-white px-4 py-1 rounded-full shadow-md text-gray-800 group-hover:underline">
@@ -36,8 +40,10 @@ const Essentials = () => {
         {/* Kids' Image */}
         <div className="relative group">
           <Image
-            src={"./image/kids.png"}
+            src="/image/kids.png"  // Correct path for kids.png
             alt="Kids' Essentials"
+            width={300}
+            height={400}
             className="w-[300px] h-[400px] object-cover rounded-lg shadow-lg"
           />
           <p className="absolute bottom-4 left-4 bg-white px-4 py-1 rounded-full shadow-md text-gray-800 group-hover:underline">

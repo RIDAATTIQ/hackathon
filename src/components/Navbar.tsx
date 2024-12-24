@@ -9,8 +9,8 @@ const Navbar: React.FC = () => {
           <Image
             src={"/image/logo.png"}
             alt="Nike Logo"
-            className="height={8} width={auto}" // Adjusted height to fit the slim navbar
-          />
+            height={24}
+            width={24}/>
         </div>
 
         {/* Middle - Menu Items */}
